@@ -1,0 +1,106 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #333;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+  }
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  /* Introduction Section */
+  .introduction {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .introduction h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .introduction p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  /* Skills Display */
+  .skills {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  .skills li {
+    border: 2px solid #333;
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 18px;
+  }
+  .skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  /* Contact Information */
+.contact {
+  background-color: #333;
+  color: white;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Contact Information Icons */
+.contact a {
+  color: white; /* Icon color */
+  text-decoration: none;
+  margin: 0 10px; /* Adjust icon spacing */
+}
+
+.contact a:hover {
+  color: #ffd700; /* Change color on hover */
+}
+
+
+  /* Responsive Design */
+  @media only screen and (max-width: 600px) {
+    /* Adjustments for smaller screens */
+    header {
+      padding: 15px;
+      font-size: 20px;
+    }
+    .introduction,
+    .skills,
+    .contact {
+      padding: 20px;
+      margin: 10px;
+    }
+    .skills li {
+      padding: 8px 16px;
+      margin: 5px;
+      font-size: 16px;
+    }
+  }
